@@ -39,7 +39,7 @@ console.log(typeof (c))
 //
 let name = prompt('Your first name?')
 let lastname = prompt('Your last name?')
-let age = +prompt('How old are you?')
+let age = prompt('How old are you?')
 console.log(`${name} ${lastname} ${age}`)
 
 
