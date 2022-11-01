@@ -27,7 +27,8 @@ console.log(less)
 let firstName = 'Yurii'
 let middleName = 'Bobyk'
 let lastName = 'Volodymyrovych'
-console.log(`${firstName} ${middleName} ${lastName}`)
+let person = (firstName + ' ' + middleName + ' ' + lastName)
+console.log(person)
 //
 let a = 100
 let b = '100'
@@ -38,7 +39,7 @@ console.log(typeof (c))
 //
 let name = prompt('Your first name?')
 let lastname = prompt('Your last name?')
-let age = prompt('How old are you?')
+let age = +prompt('How old are you?')
 console.log(`${name} ${lastname} ${age}`)
 
 
