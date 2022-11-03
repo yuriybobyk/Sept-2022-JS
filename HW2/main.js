@@ -1,5 +1,15 @@
 //- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-let array = [100, 200, 300, 'book', 'author', 'genre', true, false, 'skills', 'object']
+let array = [];
+array[0] = 100
+array[1] = 200
+array[2] = 400
+array[3] = 'Taras'
+array[4] = 'Password'
+array[5] = true
+array[6] = false
+array[7] = 'User'
+array[8] = 'object'
+array[9] = 'element'
 console.log(array[0]);
 console.log(array[1]);
 console.log(array[2]);
