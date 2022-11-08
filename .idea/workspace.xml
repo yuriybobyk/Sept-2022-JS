@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="home work 2 done">
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/HW3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667320939800</updated>
       <workItem from="1667320941196" duration="5880000" />
-      <workItem from="1667480694520" duration="3179000" />
+      <workItem from="1667480694520" duration="4244000" />
+      <workItem from="1667913295864" duration="3053000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667483414216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="small changes">
+      <created>1667483916737</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667483916737</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +136,7 @@
     <MESSAGE value="some changes" />
     <MESSAGE value="Starting home work 2" />
     <MESSAGE value="home work 2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work 2 done" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
 </project>
