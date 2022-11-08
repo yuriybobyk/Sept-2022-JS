@@ -59,8 +59,10 @@ let weekday = +prompt('Введіть номер дня')
             console.log('Saturday')
             break;
         case 7:
-            console.log('Wednesday')
+            console.log('Sunday')
             break;
+        default:
+            console.log('??????')
     }
 //- Користувач вводить або має два числа.
 // Потрібно знайти та вивести максимальне число з тих двох .
