@@ -1,7 +1,101 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+let items1 = [
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+]
+for (let i = 0; i < items1.length; i++) {
+    const items1Element = items1[i];
+    document.write(
+        `<div class="items1">${items1Element}</div>`
+    )
+}
+
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+let items2 = [
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+]
+for (let i = 0; i < items2.length; i++) {
+    const items2Element = items2[i];
+    document.write(
+        `
+ <div class="items2">${i+1}. ${items2Element}</div>
+         `
+    )
+
+}
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+let items3 = [
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+]
+let i = 0;
+ while (i<items3.length) {
+     document.write(`<h1>${items3[i]}</h1>`)
+     i++;
+ }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+let items4 = [
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+    "item",
+]
+let y = 0;
+while (y<items4.length) {
+    document.write(`<h1>${y+1}. ${items4[y]}</h1>`)
+    y++;
+}
 //
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
@@ -60,27 +154,27 @@
 //
 //
 let products = [
-     {
-         title: 'milk',
-         price: 22,
-         image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
-     },
-     {
-         title: 'juice',
-         price: 27,
-         image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
-     },
-     {
-         title: 'tomato',
+    {
+        title: 'milk',
+        price: 22,
+        image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+    },
+    {
+        title: 'juice',
+        price: 27,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+    },
+    {
+        title: 'tomato',
         price: 47,
-         image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
-     },
-     {
-         title: 'tea',
-         price: 15,
-         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
-     },
- ];
+        image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+    },
+    {
+        title: 'tea',
+        price: 15,
+        image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+    },
+];
 for (const product of products) {
     document.write(
         `

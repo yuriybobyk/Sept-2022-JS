@@ -1,7 +1,18 @@
+.items1{
+    font-size: 22px;
+    margin: 5px;
+    background: silver;
+}
+
+.items2{
+    font-size: 22px;
+    margin: 5px;
+    background: chocolate;
+}
+
 .product-card{
     margin: 10px;
     font-size: 22px;
-    border: 3px solid black;
 
 }
 
@@ -9,3 +20,8 @@
     width: 320px;
     height: 320px;
 }
+
+.product-title{
+    color: slategray;
+}
+
