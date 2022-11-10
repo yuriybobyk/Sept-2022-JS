@@ -115,12 +115,14 @@ while (y<items4.length) {
 //     </ul>
 //
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
+
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-document.write(`<ul`);
-for (let listOfItem of listOfItems){
-    document.write(`<li>${listOfItems}</li>`)
+document.write(`<ul>`);
+for (let i = 0; i < listOfItems.length; i++){
+    let listOfItem = listOfItems[i];
+    document.write(`<li>${listOfItem}</li>`)
 }
-document.write(`</ul`);
+document.write(`</ul>`);
 //
 // -----------------------------------------------
 //
@@ -211,3 +213,69 @@ for (const product of products) {
 //     - користувачів зі статусом true
 // - користувачів зі статусом false
 // - користувачів які старші за 30 років
+
+// let users = [
+//      {name: 'vasya', age: 31, status: false},
+//      {name: 'petya', age: 30, status: true},
+//      {name: 'kolya', age: 29, status: true},
+//      {name: 'olya', age: 28, status: false},
+//      {name: 'max', age: 30, status: true},
+//      {name: 'anya', age: 31, status: false},
+//      {name: 'oleg', age: 28, status: false},
+//      {name: 'andrey', age: 29, status: true},
+//      {name: 'masha', age: 30, status: true},
+//      {name: 'olya', age: 31, status: false},
+//      {name: 'max', age: 31, status: true}
+// ];
+// for (let j = 0; j < users.length; j++) {
+//     let user = users[j];
+//     if (user.status === true) {
+//         document.write(`<div class="box"><h3>${user.name}</h3> <p>${user.age} ${user.status}</p></div>`)
+//     }
+//
+// }
+
+// --------------------
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true}
+// ];
+// for (let j = 0; j < users.length; j++) {
+//     let user = users[j];
+//     if (user.status === false) {
+//         document.write(`<div class="box"><h3>${user.name}</h3> <p>${user.age} ${user.status}</p></div>`)
+//     }
+//
+// }
+
+// --------------------
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
+for (let j = 0; j < users.length; j++) {
+    let user = users[j];
+    if (user.age >30) {
+        document.write(`<div class="box"><h3>${user.name}</h3> <p>${user.age} ${user.status}</p></div>`)
+    }
+
+}
+
