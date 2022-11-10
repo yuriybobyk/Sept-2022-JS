@@ -10,6 +10,18 @@
     background: chocolate;
 }
 
+.items3{
+    font-size: 22px;
+    margin: 5px;
+    background: cornflowerblue;
+}
+
+.items4{
+    font-size: 22px;
+    margin: 5px;
+    background: gold;
+}
+
 .product-card{
     margin: 10px;
     font-size: 22px;

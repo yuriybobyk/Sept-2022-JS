@@ -65,7 +65,7 @@ let items3 = [
 ]
 let i = 0;
  while (i<items3.length) {
-     document.write(`<h1>${items3[i]}</h1>`)
+     document.write(`<h1 class="items3">${items3[i]}</h1>`)
      i++;
  }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
@@ -93,7 +93,7 @@ let items4 = [
 ]
 let y = 0;
 while (y<items4.length) {
-    document.write(`<h1>${y+1}. ${items4[y]}</h1>`)
+    document.write(`<h1 class="items4">${y+1}. ${items4[y]}</h1>`)
     y++;
 }
 //
@@ -115,6 +115,12 @@ while (y<items4.length) {
 //     </ul>
 //
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul`);
+for (let listOfItem of listOfItems){
+    document.write(`<li>${listOfItems}</li>`)
+}
+document.write(`</ul`);
 //
 // -----------------------------------------------
 //
