@@ -50,6 +50,49 @@ function writer2(text, number ){
 }
 writer2(`world`, 3)
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+let elements1 = [11,22,33, `hello`, `world`, true, false]
+function params(array){
+    document.write(`<ul>`)
+    for (const arrayElement of array) {
+        document.write(`<li>${arrayElement}</li>`)
+    }
+    document.write(`<ul>`)
+}
+params(elements1)
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+let elements2 = [
+    {
+      id: 1,
+      name: `Yurii`,
+      age: 22
+    },
+    {
+        id:2,
+        name: `Maryna`,
+        age: 22
+    }
+]
+function users(array){
+    for (const elements2Element of elements2) {
+        document.write(`<div>${elements2Element.id}, ${elements2Element.name}, ${elements2Element.age}</div>`)
+
+    }
+}
+users(elements2)
 // - створити функцію яка повертає найменьше число з масиву
+let numbers = [11, 14, 20]
+function minimum(array){
+    let min = array[0];
+    for (const number of numbers) {
+        if (number<min){
+            min = number;
+        }
+    }
+    return min;
+}
+console.log(minimum(numbers))
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+let numbers3 = [11,22,33]
+function calc(array){
+
+}
