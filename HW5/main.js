@@ -94,5 +94,10 @@ console.log(minimum(numbers))
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 let numbers3 = [11,22,33]
 function calc(array){
-
+    let addition = 0;
+    for (const item of numbers3) {
+        addition += item;
+    }
+    return addition
 }
+console.log(calc(numbers3))
