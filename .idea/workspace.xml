@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Start HW 6">
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1668594235030" duration="5003000" />
       <workItem from="1668625721542" duration="2111000" />
       <workItem from="1669030156307" duration="2022000" />
-      <workItem from="1669051223231" duration="1386000" />
+      <workItem from="1669051223231" duration="2618000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669031027796</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Some changes">
+      <created>1669053481859</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669053481859</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +272,7 @@
     <MESSAGE value="some changes" />
     <MESSAGE value="adding additional directory" />
     <MESSAGE value="Start HW 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start HW 6" />
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
 </project>
