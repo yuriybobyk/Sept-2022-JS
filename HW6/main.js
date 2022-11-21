@@ -1,5 +1,6 @@
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
+
 // - Перевести до великого регістру наступні стрінгові значення
 // 'hello world', 'lorem ipsum', 'javascript is cool'
 let str1up = 'hello world'
@@ -27,6 +28,14 @@ console.log(str3low.toLowerCase())
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+
+let str = 'Ревуть воли як ясла повні';
+function stringToarray (str){
+    let split = str.split(' ');
+    console.log(split)
+}
+stringToarray(str)
+
 //
 //
 //

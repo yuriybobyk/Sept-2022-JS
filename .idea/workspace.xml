@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="adding additional directory">
-      <change afterPath="$PROJECT_DIR$/HW6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW6/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task4/main.js" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Start HW 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additionaltasks/task4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <workItem from="1668518917340" duration="603000" />
       <workItem from="1668594235030" duration="5003000" />
       <workItem from="1668625721542" duration="2111000" />
-      <workItem from="1669030156307" duration="858000" />
+      <workItem from="1669030156307" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668626053320</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Start HW 6">
+      <created>1669031027796</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669031027796</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +264,7 @@
     <MESSAGE value="start HW5" />
     <MESSAGE value="some changes" />
     <MESSAGE value="adding additional directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding additional directory" />
+    <MESSAGE value="Start HW 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start HW 6" />
   </component>
 </project>
