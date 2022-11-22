@@ -52,6 +52,25 @@ stringToarray(str)
 //     let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
+
+let nums = [11,21,3]
+// function sortNums(nums, ascending){
+//     let sort = nums.sort((a, b) => {
+//         return a - b;
+//     })
+//     console.log(sort)
+// }
+//
+// sortNums(nums)
+
+function sortNums(nums, descending){
+    let sort = nums.sort((a, b) => {
+        return b - a;
+    })
+    console.log(sort)
+}
+
+sortNums(nums)
 //
 //
 // - є масив
