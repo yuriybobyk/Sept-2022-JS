@@ -64,7 +64,24 @@ stringToarray(str)
 //     {title: 'Frontend', monthDuration: 4}
 // ];
 // -- відсортувати його за спаданням за monthDuration
+
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+]
+
+let sort = coursesAndDurationArray.sort((a, b) => {
+    return b.monthDuration - a.monthDuration;
+})
+console.log(sort)
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+
+let filteredcourses = coursesAndDurationArray.filter(value => value.monthDuration > 5);
+console.log(filteredcourses)
 //
 // описати колоду карт
 // - знайти піковий туз
