@@ -31,6 +31,12 @@ console.log(str3low.toLowerCase())
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+
+let dirty = ' dirty string   '
+console.log(dirty.length)
+let substring = dirty.substring(1, 13);
+console.log(substring)
+
 //
 //
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
@@ -48,29 +54,30 @@ stringToarray(str)
 //
 //
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
+
+let num = [10,8,-7,55,987,-1011,0,1050,0];
+
+let stringNum = num.map(value => value.toString())
+console.log(stringNum)
+
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 //     let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-let nums = [11,21,3]
-// function sortNums(nums, ascending){
-//     let sort = nums.sort((a, b) => {
-//         return a - b;
-//     })
-//     console.log(sort)
-// }
-//
-// sortNums(nums)
+let nums = [11,21,3];
 
-function sortNums(nums, descending){
-    let sort = nums.sort((a, b) => {
-        return b - a;
-    })
-    console.log(sort)
+function sortNums(arr, direction){
+    if (direction === 'ascending') {
+        arr.sort((a, b) => a - b);
+    } else if (direction === 'descending'){
+        arr.sort((a, b) => b - a);
+    }
+    return arr;
 }
 
-sortNums(nums)
+console.log(sortNums(nums, 'ascending'))
+console.log(sortNums(nums, 'descending'))
 //
 //
 // - є масив
