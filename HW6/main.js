@@ -189,3 +189,23 @@ console.log(filter5)
 //     hearts:[],
 //     clubs:[]
 // }
+
+let reduce = deck.reduce((previousValue, currentValue) => {
+    if (currentValue.cardSuit === 'Spade'){
+        previousValue.spades.push(currentValue);
+    }else if (currentValue.cardSuit === 'Diamonds'){
+        previousValue.diamonds.push(currentValue);
+    }else if (currentValue.cardSuit === 'Hearts'){
+        previousValue.hearts.push(currentValue)
+    }else if (currentValue.cardSuit === 'Clubs'){
+        previousValue.clubs.push(currentValue)
+    }
+    return previousValue;
+},{
+    spades:[],
+    diamonds:[],
+    hearts:[],
+    clubs:[]
+});
+
+console.log(reduce)
