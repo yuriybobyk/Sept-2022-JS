@@ -110,7 +110,33 @@ let filteredcourses = coursesAndDurationArray.filter(value => value.monthDuratio
 console.log(filteredcourses)
 //
 // описати колоду карт
+
+let cardsuits = [
+    {cardSuit: 'spade', color: 'black'},
+    {cardSuit: 'diamond', color: 'red'},
+    {cardSuit: 'heart', color: 'red'},
+    {cardSuit: 'clubs', color: 'black'}
+]
+
+let cardvalues = [6,7,8,9,10, 'ace', 'jack', 'queen', 'king']
+let carddeck = [];
+
+for (const suits of cardsuits) {
+    for (const values of cardvalues) {
+        let cards = {
+            cardSuit: suits.cardSuit,
+            values: cardvalues,
+            color: suits.color
+        }
+        carddeck.push(cards);
+        
+    }
+
+}
+
+console.log(carddeck)
 // - знайти піковий туз
+
 // - всі шістки
 // - всі червоні карти
 // - всі буби
