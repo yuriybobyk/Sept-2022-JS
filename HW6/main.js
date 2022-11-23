@@ -169,6 +169,9 @@ console.log(filter3)
 let filter4 = deck.filter(value => value.cardSuit === 'Diamonds')
 console.log(filter4)
 // - всі трефи від 9 та більше
+
+let filter5 = deck.filter(value => (value.value >= 9 && value.cardSuit === 'Clubs')  || (value.cardSuit === 'Clubs' &&  typeof value.value === 'string'))
+console.log(filter5)
 //
 //
 // {
