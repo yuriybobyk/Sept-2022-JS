@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW5/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,7 +38,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/yuriy/Завантаження/jetbrains-nightfall-theme-1.1.7.zip&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,6 +60,12 @@
       <workItem from="1668509344196" duration="1835000" />
       <workItem from="1668518917340" duration="603000" />
       <workItem from="1668594235030" duration="5003000" />
+      <workItem from="1668625721542" duration="2111000" />
+      <workItem from="1669030156307" duration="2022000" />
+      <workItem from="1669051223231" duration="2633000" />
+      <workItem from="1669119585794" duration="5867000" />
+      <workItem from="1669193515164" duration="8545000" />
+      <workItem from="1669210304627" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -206,7 +214,77 @@
       <option name="project" value="LOCAL" />
       <updated>1668601606469</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="adding additional directory">
+      <created>1668626053320</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668626053320</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Start HW 6">
+      <created>1669031027796</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669031027796</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Some changes">
+      <created>1669053481859</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669053481859</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Some changes">
+      <created>1669065049289</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1669065049289</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Some changes">
+      <created>1669121376821</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121376821</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Some changes">
+      <created>1669122128003</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669122128003</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Some changes">
+      <created>1669195673196</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669195673196</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Some changes">
+      <created>1669198800547</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669198800547</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Some changes">
+      <created>1669202306722</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669202306722</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Some changes">
+      <created>1669203174030</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669203174030</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +323,9 @@
     <MESSAGE value="HW 4 started" />
     <MESSAGE value="start HW5" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="adding additional directory" />
+    <MESSAGE value="Start HW 6" />
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
 </project>
