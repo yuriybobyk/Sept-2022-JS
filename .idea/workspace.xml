@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Some changes">
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task6/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Started additional task6">
+      <change beforePath="$PROJECT_DIR$/additionaltasks/task6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1669119585794" duration="5867000" />
       <workItem from="1669193515164" duration="8545000" />
       <workItem from="1669210304627" duration="625000" />
-      <workItem from="1669366154358" duration="4973000" />
+      <workItem from="1669366154358" duration="5020000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -286,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669203174030</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Started additional task6">
+      <created>1669373388189</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669373388189</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +333,7 @@
     <MESSAGE value="adding additional directory" />
     <MESSAGE value="Start HW 6" />
     <MESSAGE value="Some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
+    <MESSAGE value="Started additional task6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started additional task6" />
   </component>
 </project>

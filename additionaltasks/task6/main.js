@@ -3,6 +3,11 @@
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
 //     let str = 'Каждый охотник желает знать';
 // document.writeln(delete_characters(str, 7)); // Каждый
+let str1 = 'Каждый охотник желает знать';
+
+function delete_characters (str, length){
+
+}
 //
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
 //     let str = "HTML JavaScript PHP";
