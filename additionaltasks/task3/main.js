@@ -52,13 +52,16 @@ if (num2 < num3 && num1 < num2){
 // - У нас є змінна test, якщо дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
 //     Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким записом(тернаркою)
 
-let test = false
-if (test === true){
-    console.log('Вірно')
-}else {
-    console.log('Неправильно')
-}
+// let test1 = false
+// if (test1 === true){
+//     console.log('Вірно')
+// }else {
+//     console.log('Неправильно')
+// }
 
+let test2 = true
+let result = (test2) ? 'Вірно' : `Неправильно`;
+console.log(result)
 
 //
 // - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
