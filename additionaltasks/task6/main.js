@@ -32,6 +32,26 @@ insert_dash(str)
 // let n1 = 'Harry Potter'
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
+
+let n1 = 'Harry..Potter'
+let n2 = 'Ron---Whisley'
+let n3 = 'Hermione__Granger'
+
+function normal1 (){
+    let normalize = n1.replaceAll('..', ' ')
+    document.write(`<div>{no}</div>`)
+}
+
+
+normal1()
+
+function normal2 (){
+    let normalize = n2.replaceAll('---', ' ')
+    document.write(normalize)
+}
+
+normal2()
+
 //
 //     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 let random = [];
