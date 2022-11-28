@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Started additional task6">
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task3/main.js" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="started additional task3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additionaltasks/task6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task6/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additionaltasks/task3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1669193515164" duration="8545000" />
       <workItem from="1669210304627" duration="625000" />
       <workItem from="1669366154358" duration="7150000" />
-      <workItem from="1669625566662" duration="1805000" />
+      <workItem from="1669625566662" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -302,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669373628459</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="started additional task3">
+      <created>1669627546110</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669627546111</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +350,7 @@
     <MESSAGE value="Start HW 6" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Started additional task6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started additional task6" />
+    <MESSAGE value="started additional task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="started additional task3" />
   </component>
 </project>
