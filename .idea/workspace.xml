@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additionaltasks/task3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additionaltasks/task4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additionaltasks/task4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1669193515164" duration="8545000" />
       <workItem from="1669210304627" duration="625000" />
       <workItem from="1669366154358" duration="7150000" />
-      <workItem from="1669625566662" duration="10392000" />
+      <workItem from="1669625566662" duration="12221000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -321,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669638055590</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="done">
+      <created>1669642364158</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1669642364158</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +372,7 @@
     <MESSAGE value="Started additional task6" />
     <MESSAGE value="started additional task3" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
