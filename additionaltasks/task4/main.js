@@ -13,8 +13,49 @@ function min (a, b, c){
 
 min(12,4,11)
 // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
+
+function max (a, b, c){
+    if (b>a && b>c){
+        console.log(b)
+    }else if (a>b && a>c){
+        console.log(a)
+    }else if (c>b && c>a){
+        console.log(c)
+    }
+    else {
+        console.log('error')
+    }
+}
+
+max(12,4,11)
 // - створити функцію яка повертає найбільше число з масиву
+let arr1 = [11,45,23,4]
+
+function maxnum (array){
+    let max = array[0];
+    for (const item of array) {
+        if (item>max){
+            max = item
+        }
+
+    }
+    return max;
+}
+console.log(maxnum(arr1))
+
+
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+
+function average (array){
+    let sum = 0;
+    for (const item of array) {
+        sum += item;
+
+    }
+    return sum/array.length;
+}
+
+console.log(average(arr1))
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
