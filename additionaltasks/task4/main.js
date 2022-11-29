@@ -57,6 +57,23 @@ function average (array){
 
 console.log(average(arr1))
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+function minmax (...arguments) {
+    let min = arguments[0];
+    let max = arguments[0];
+    for (const argument of arguments) {
+        if (argument < min){
+            min = argument;
+        }
+        if (argument > max){
+            max = argument;
+        }
+
+    }
+    console.log(max);
+    return min;
+}
+
+minmax(1,3,6,12,78)
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
