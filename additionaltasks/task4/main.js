@@ -77,17 +77,33 @@ minmax(1,3,6,12,78)
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 
-let randomarr = []
+let randomarr1 = []
 
 function random (array){
     for (let i = 0; i < 20; i++) {
-        randomarr[i] = Math.floor(Math.random()*100);
+        randomarr1[i] = Math.floor(Math.random()*100);
     }
-    console.log(randomarr)
+    console.log(randomarr1)
 }
 
 random()
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+
+let randomlimit = []
+
+function randomlimitfun (limit){
+    for (let i = 0; i < limit; i++) {
+        randomlimit[i] = Math.floor(Math.random()*100);
+
+    }
+    console.log(randomlimit)
+}
+
+randomlimitfun(7)
+
+
+
+
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 //
 //
