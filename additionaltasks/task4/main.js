@@ -93,7 +93,7 @@ let randomlimit = []
 
 function randomlimitfun (limit){
     for (let i = 0; i < limit; i++) {
-        randomlimit[i] = Math.floor(Math.random()*100);
+        randomlimit[i] = Math.floor(Math.random()*limit);
 
     }
     console.log(randomlimit)
@@ -105,11 +105,34 @@ randomlimitfun(7)
 
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+
+let array2 = [1,2,3]
+
+function reversearray (array){
+    let newarray = [];
+    for (let i = array.length - 1, j = 0; i >= 0; i--) {
+        newarray[j++] = array[i];
+        
+    }
+    return newarray;
+
+}
+
+console.log(reversearray(array2));
 //
 //
 //
 //
 // - створити функцію, яка якщо приймає один аргумент, просто вивдоить його, якщо два аргументи - складає або конкатенує їх між собою.
+
+function argu (...arguments){
+    if (arguments.length === 2){
+        console.log(arguments[0] + arguments[1]);;
+    }else {console.log(arguments[0])}
+
+}
+
+argu('argoment1')
 //
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 //     EXAMPLE:
