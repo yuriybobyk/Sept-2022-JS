@@ -131,8 +131,7 @@ function argu (...arguments){
     }else {console.log(arguments[0])}
 
 }
-
-argu('argoment1')
+argu('argument1')
 //
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 //     EXAMPLE:
@@ -140,6 +139,25 @@ argu('argoment1')
 //     [2,3,4,5]
 // результат
 //     [3,5,7,9]
+
+let arrayone = [1,2,3,4]
+let arraysecond = [2,3,4,5]
+
+function sumarray(arrayone, arraysecond) {
+    let result = [];
+    let sum;
+    if (arrayone.length >= arraysecond.length){
+        sum = arrayone;
+    }else if (arraysecond.length >=arrayone.length){
+        sum = arraysecond
+    }
+    for (let i = 0; i < sum.length; i++) {
+        result[i] = (arrayone[i]) + (arraysecond[i]);
+    }
+    return result
+}
+
+console.log(sumarray(arrayone, arraysecond))
 //
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // EXAMPLE:
