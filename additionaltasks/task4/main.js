@@ -162,7 +162,32 @@ console.log(sumarray(arrayone, arraysecond))
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
+
+function foo1 (array){
+    let NewArray
+}
 //
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+let obj = [{
+    name: 'Dima',
+    age: 13
+},{model: 'Camry'
+
+}]
+
+function foo2 (array){
+    let NewArray = []
+    for (let i = 0, j = 0; i < array.length; i++) {
+        for (const item in array[i]) {
+            NewArray[j++] = array[i][item]
+            
+        }
+        
+    }
+    return NewArray
+}
+
+console.log(foo2(obj));
