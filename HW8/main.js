@@ -30,6 +30,12 @@ let fil = array.filter((User)=>User.id%2 === 0)
 console.log(fil)
 //
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
+
+let sor = array.sort((a, b) => {
+    return b.id - a.id
+})
+console.log(sor)
+
 //
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами Client
