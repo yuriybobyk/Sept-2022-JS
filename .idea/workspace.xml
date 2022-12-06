@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="resolve conflict">
-      <change afterPath="$PROJECT_DIR$/HW6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW6/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additionaltasks/task4/index.html" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Start home work 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669203174030</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Start home work 8">
+      <created>1670326448886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670326448886</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +333,7 @@
     <MESSAGE value="adding additional directory" />
     <MESSAGE value="Start HW 6" />
     <MESSAGE value="Some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
+    <MESSAGE value="Start home work 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start home work 8" />
   </component>
 </project>

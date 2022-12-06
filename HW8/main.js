@@ -6,8 +6,23 @@ function User(id, name, surname, email, phone) {
     this.surname = surname
     this.email = email
     this.phone = phone
-    
 }
+
+let array = []
+
+let user1 = new User(1, 'Vasya', 'Biba', 'vasylbiba@gmail.com', 380999467705)
+let user2 = new User(2, 'Petya', 'Boba', 'petroboba@gmail.com', 380999467706)
+let user3 = new User(3, 'Olya', 'Biba', 'olhabiba@gmail.com', 380999467707)
+let user4 = new User(4, 'Ira', 'Boba', 'irynaboba@gmail.com', 380639467708)
+let user5 = new User(5, 'Dima', 'Baba', 'dmytrobaba@gmail.com', 380639467709)
+let user6 = new User(6, 'Lena', 'Bobo', 'olenabobo@gmail.com', 380639467710)
+let user7 = new User(7, 'Vasya', 'Bobo', 'vasylbobo@gmail.com', 380739467711)
+let user8 = new User(8, 'Yura', 'Bibo', 'yuriibibo@gmail.com', 380739467712)
+let user9 = new User(9, 'Marta', 'Biba', 'martabiba@gmail.com', 380739467713)
+let user10 = new User(10, 'Kolya', 'Biba', 'mykolabiba@gmail.com', 3806694677014)
+
+array.push(user1, user2, user3, user4, user5, user6, user7, user8, user9, user10)
+console.log(array)
 //
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 //
