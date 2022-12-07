@@ -177,6 +177,47 @@ console.log(car)
 //
 //
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+class Cinderella{
+    constructor(name, age, footsize) {
+        this.name = name;
+        this.age = age;
+        this.footsize = footsize;
+    }
+}
+let cinderella1 = new Cinderella ('Cinderella1', 20, 35)
+let cinderella2 = new Cinderella ('Cinderella2', 17, 36)
+let cinderella3 = new Cinderella ('Cinderella3', 21, 34)
+let cinderella4 = new Cinderella ('Cinderella4', 22, 35)
+let cinderella5 = new Cinderella ('Cinderella5', 18, 37)
+let cinderella6 = new Cinderella ('Cinderella6', 19, 39)
+let cinderella7 = new Cinderella ('Cinderella7', 23, 36)
+let cinderella8 = new Cinderella ('Cinderella8', 21, 38)
+let cinderella9 = new Cinderella ('Cinderella9', 25, 36)
+let cinderella10 = new Cinderella ('Cinderell101', 17, 37)
+
+let arraycinderella = []
+arraycinderella.push(cinderella1,cinderella2, cinderella3, cinderella4, cinderella5, cinderella6, cinderella7, cinderella8, cinderella9, cinderella10)
+console.log(arraycinderella)
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+class Prince{
+    constructor(name, age, findFootsize) {
+        this.name = name;
+        this.age = age;
+        this.findFootsize = findFootsize;
+    }
+
+}
+ let prince = new Prince('Yurii', 22, 38);
+console.log(prince)
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+function findPrinces  (array,prince){
+    for (const item of array) {
+        if (item.footsize === prince.findFootsize){
+            console.log(`My Princes is ${item.name}`)
+        }
+        
+    }
+}
+findPrinces(arraycinderella, prince)
+
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
