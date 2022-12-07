@@ -123,11 +123,56 @@ console.log(car)
 //
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
+class Carclass {
+    constructor(model, brand, year, max_speed, engine_size) {
+        this.model = model;
+        this.brand = brand;
+        this.year = year;
+        this.max_speed = max_speed;
+        this.engine_size = engine_size;
+    }
+
+    drive (){
+        console.log(`їдемо зі швидкістю ${this.max_speed} на годину`)
+    }
+
+    info () {
+        for (const item in this) {
+            if (typeof this[item] !== 'function'){
+                console.log (`${item} -- ${this[item]}` )
+            }
+
+        }
+    }
+
+    increaseMaxspeed(newSpeed){
+        this.max_speed += newSpeed
+    }
+
+    changeYear (newYear){
+        this.year = newYear
+    }
+
+    addDriver (driver){
+        this.driver = driver
+    }
+}
+let carclass = new Carclass('Supra', 'Toyota', '2021', 250, 3.0)
+console.log(carclass)
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
+carclass.drive()
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
+carclass.info()
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+carclass.increaseMaxspeed(20)
+console.log(carclass)
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
+carclass.changeYear(2022)
+console.log(carclass)
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+carclass.addDriver({name: 'Yurii', surname: 'Bobyk', age: 22})
+console.log(car)
+
 //
 //
 //
