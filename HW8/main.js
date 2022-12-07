@@ -102,9 +102,23 @@ Car.prototype.info = function () {
 }
 car.info()
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+Car.prototype.increaseMaxSpeed = function (newSpeed) {
+    this.max_speed += newSpeed
+}
+car.increaseMaxSpeed(25)
+console.log(car)
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
+Car.prototype.changeYear = function (newYear) {
+    this.year = newYear
+}
+car.changeYear(2023)
+console.log(car)
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-
+Car.prototype.addDriver = function (driver) {
+    this.driver = driver
+}
+car.addDriver({name: 'Yurii', surname: 'Bobyk', age: 22})
+console.log(car)
 //
 //
 // - (Те саме, тільки через клас)
