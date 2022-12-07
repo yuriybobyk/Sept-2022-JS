@@ -221,3 +221,6 @@ function findPrinces  (array,prince){
 findPrinces(arraycinderella, prince)
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+let findfoot = arraycinderella.find(value => value.footsize === prince.findFootsize);
+console.log(findfoot)
