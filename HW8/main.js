@@ -91,6 +91,16 @@ Car.prototype.drive = function () {
 }
 console.log(car.drive())
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
+
+Car.prototype.info = function () {
+    for (const item in this) {
+        if (typeof this[item] !== 'function'){
+            console.log (`${item} -- ${this[item]}` )
+        }
+
+    }
+}
+car.info()
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
