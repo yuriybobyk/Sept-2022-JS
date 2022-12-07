@@ -1,0 +1,8 @@
+.member{
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: linear-gradient(red, yellowgreen);
+    border: 2px solid black;
+    border-radius: 15px;
+}
