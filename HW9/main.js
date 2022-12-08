@@ -39,9 +39,6 @@
 // Проітерувати його, створиши для кожного об'єкту  масиву <div class='member'> та наповнити його данними з об'єкту.
 //
 //     Якщо людською мовою: під кожного члена родини зробити блок та наповнити його інформацією з цього об'єкту
-
-let allSimpsonsDiv = document.getElementsByClassName('Simpsons')[0];
-
 let simpsons = [
     {
         name: 'Bart',
@@ -81,12 +78,25 @@ let simpsons = [
 ];
 
 for (const simpson of simpsons) {
-    let div = document.createElement('div');
-    div.classList.add('member')
-    div.innerText = (`${simpson.name}, ${simpson.surname}, ${simpson.age}, ${simpson.info}, ${simpson.photo}`);
-    allSimpsonsDiv.appendChild(div)
+    let divblock = document.createElement('div')
+    divblock.classList.add('member')
+    document.body.append(divblock)
+    let memberblock = document.getElementsByTagName('div')
+    let simosonblock = memberblock[0]
 
+    let h1 = document.createElement('h1')
+    h1.innerText = `${simpson.name} ${simpson.surname} ${simpson.age}`
+
+    let p = document.createElement('p')
+    p.innerText = `${simpson.info}`
+
+    let image = document.createElement('img')
+    image.src = `${simpson.photo}`
+
+    simosonblock.append(h1, p, image)
 }
+
+
 //
 //
 //
@@ -173,6 +183,12 @@ let coursesArray = [
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
+let div = document.createElement('div')
+div.classList.add('wrap')
+div.classList.add('collapse')
+div.classList.add('alpha')
+div.classList.add('beta')
+document.body.append(div)
 //
 // - Є масив:
 //     ['Main','Products','About us','Contacts']
