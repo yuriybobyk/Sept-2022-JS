@@ -188,7 +188,12 @@ div.classList.add('wrap')
 div.classList.add('collapse')
 div.classList.add('alpha')
 div.classList.add('beta')
-document.body.append(div)
+div.style.background = 'yellow'
+div.style.height = '150px'
+div.style.width = '150px'
+document.body.appendChild(div)
+document.body.append(div.cloneNode(true))
+
 //
 // - Є масив:
 //     ['Main','Products','About us','Contacts']

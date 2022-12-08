@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="started hw 9">
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW9/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW9/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <workItem from="1669193515164" duration="8545000" />
       <workItem from="1669210304627" duration="625000" />
       <workItem from="1670407481300" duration="8075000" />
-      <workItem from="1670516953385" duration="1741000" />
+      <workItem from="1670516953385" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="HW1_JS done">
       <created>1667324425839</created>
@@ -371,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670422910160</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="some changes">
+      <created>1670521520557</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1670521520557</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,10 +419,10 @@
     <MESSAGE value="Start HW 6" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Start home work 8" />
-    <MESSAGE value="some changes" />
     <MESSAGE value="done" />
     <MESSAGE value="started hw 10" />
     <MESSAGE value="started hw 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="started hw 9" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>
