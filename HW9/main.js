@@ -288,14 +288,15 @@ for (const item of coursesAndDurationArray2) {
 // -----------
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-
+let  hidediv = document.createElement('div')
+hidediv.classList.add('hide')
+document.body.append(hidediv)
 let hiddendiv = document.createElement('div')
 hiddendiv.innerText = `hide me`
 hiddendiv.setAttribute('id', 'text')
-
 let button = document.createElement('button')
 button.innerText = `hide`
-document.body.append(hiddendiv, button)
+hidediv.append(hiddendiv, button)
 
 button.onclick = function (){
     hiddendiv.style.display = 'none'
@@ -303,9 +304,59 @@ button.onclick = function (){
 
 //
 //
-//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-//
+// - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+let verify = document.createElement('div')
+verify.classList.add('verify')
+document.body.append(verify)
+let input = document.createElement('input')
+let verifybutton = document.createElement('button')
+verifybutton.innerText = `verify`
+verify.append(input, verifybutton)
+
+verifybutton.onclick = function (){
+    input.oninput;
+    if (input.value <18){
+        alert('your age less then 18')
+    }else if (input.value >=18){
+        alert('Welcome')
+    }
+}
 //
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+
+let input1 = document.createElement('input')
+let input2 = document.createElement('input')
+let input3 = document.createElement('input')
+
+document.body.append(input1, input2, input3)
+let tablebutton = document.createElement('button')
+tablebutton.innerText = `Generate table`
+document.body.append(tablebutton)
+
+tablebutton.onclick = function (){
+    let tr = input1.value;
+    let td = input2.value;
+    let text = input3.value;
+
+    function generatetable (raws, columns, text){
+        let table = document.createElement('table')
+        table.style.border = `3px solid blue`
+        document.body.append(table)
+
+        for (let i = 0; i < raws; i++) {
+            let raws = document.createElement('tr')
+            table.append(raws)
+            for (let j = 0; j < columns; j++) {
+                let columns = document.createElement('td')
+                columns.innerText = `${text}`
+                columns.style.border = '3px solid blue'
+                table.append(columns)
+
+            }
+            
+        }
+    }
+    generatetable(tr,td,text)
+}
