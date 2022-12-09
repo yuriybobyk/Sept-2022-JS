@@ -288,6 +288,19 @@ for (const item of coursesAndDurationArray2) {
 // -----------
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+
+let hiddendiv = document.createElement('div')
+hiddendiv.innerText = `hide me`
+hiddendiv.setAttribute('id', 'text')
+
+let button = document.createElement('button')
+button.innerText = `hide`
+document.body.append(hiddendiv, button)
+
+button.onclick = function (){
+    hiddendiv.style.display = 'none'
+}
+
 //
 //
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
