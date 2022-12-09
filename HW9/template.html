@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Title</title>
+</head>
+<body>
+<ul class="menu"></ul>
+
+<script>
+
+  const array = ['Main','Products','About us','Contacts']
+  let ul = document.getElementsByClassName('menu')[0];
+  for (const ulElement of array) {
+  let li = document.createElement('li')
+    li.innerText = `${ulElement}`
+    ul.append(li)
+
+
+    
+  }
+
+  
+
+</script>
+</body>
+</html>
