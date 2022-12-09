@@ -176,6 +176,37 @@ let coursesArray = [
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 // ------------------
+for (const item of coursesArray) {
+    let coursediv = document.createElement('div')
+    document.body.append(coursediv)
+    coursediv.classList.add('course')
+    let titlediv = document.createElement('div')
+    titlediv.innerText = `${item.title}`
+    titlediv.classList.add('title')
+    coursediv.append(titlediv);
+    let allduration = document.createElement('div')
+    coursediv.append(allduration)
+    allduration.classList.add('duration')
+    let monthdiv = document.createElement('div')
+    monthdiv.innerText = `${item.monthDuration}`
+    monthdiv.classList.add('month')
+    allduration.append(monthdiv)
+    let hourdiv = document.createElement('div')
+    hourdiv.innerText = `${item.hourDuration}`
+    hourdiv.classList.add('hour')
+    allduration.append(hourdiv)
+    let modul = document.createElement('div')
+    coursediv.append(modul)
+    modul.classList.add('modul')
+    let ul = document.createElement('ul')
+    modul.append(ul)
+    for (const modulElement of item.modules) {
+        let li = document.createElement('li')
+        li.innerText = `${modulElement}`
+        ul.append(li)
+
+    }
+}
 //
 //
 //     - створити блок,
