@@ -13,7 +13,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
         const ul = document.createElement('ul')
         div.appendChild(ul)
         const li = document.createElement('li')
-        li.innerText = `${item.id} -- ${item.name}`
+        li.innerText = `${item.id} -- ${item.name} --`
         ul.appendChild(li)
+        const a = document.createElement('a')
+        a.innerText = 'Go to user-details'
+        div.appendChild(a)
+        a.href = `user-details.html?id=${item.id}`
     }
 })

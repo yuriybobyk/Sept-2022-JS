@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/HW10/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/users.html" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Start HW 10">
+      <change afterPath="$PROJECT_DIR$/HW10/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW10/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +70,7 @@
       <workItem from="1670407481300" duration="8075000" />
       <workItem from="1670516953385" duration="3749000" />
       <workItem from="1670587010267" duration="10442000" />
-      <workItem from="1671183992866" duration="1693000" />
-    </task>
-    <task id="LOCAL-00001" summary="HW1_JS done">
-      <created>1667324425839</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667324425839</updated>
+      <workItem from="1671183992866" duration="2172000" />
     </task>
     <task id="LOCAL-00002" summary="HW1_JS done">
       <created>1667326467795</created>
@@ -415,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670597670039</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Start HW 10">
+      <created>1671197676499</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671197676500</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +461,7 @@
     <MESSAGE value="started hw 10" />
     <MESSAGE value="started hw 9" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="Start HW 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start HW 10" />
   </component>
 </project>
