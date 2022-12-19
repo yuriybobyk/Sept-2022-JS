@@ -10,6 +10,13 @@ fetch('https://jsonplaceholder.typicode.com/users')
             userblock.classList.add('userblock')
             container.appendChild(userblock)
             userblock.innerText = `${item.id} -- ${item.name}`
+            const button = document.createElement('button')
+            button.classList.add('user_button')
+            userblock.appendChild(button)
+            const a = document.createElement('a')
+            a.innerText = 'Go to user-details'
+            button.appendChild(a)
+            a.href = `user-details.html?id=${item.id}`
+            }
 
-        }
     })

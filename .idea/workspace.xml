@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/mini-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="Started mini-project">
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW10/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW10/details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,14 +73,7 @@
       <workItem from="1670516953385" duration="3749000" />
       <workItem from="1670587010267" duration="10442000" />
       <workItem from="1671183992866" duration="5324000" />
-      <workItem from="1671437314639" duration="595000" />
-    </task>
-    <task id="LOCAL-00004" summary="some changes">
-      <created>1667326836593</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1667326836593</updated>
+      <workItem from="1671437314639" duration="6074000" />
     </task>
     <task id="LOCAL-00005" summary="Starting home work 2">
       <created>1667481663970</created>
@@ -416,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671201889414</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Started mini-project">
+      <created>1671437972413</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671437972414</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,6 +465,7 @@
     <MESSAGE value="started hw 9" />
     <MESSAGE value="Start HW 10" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="Started mini-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started mini-project" />
   </component>
 </project>
