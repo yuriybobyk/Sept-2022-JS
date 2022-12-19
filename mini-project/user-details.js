@@ -4,10 +4,12 @@ const id = url.searchParams.get('id')
 fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(response => response.json())
     .then(response =>{
+        const details_container = document.createElement('div')
+        document.body.appendChild(details_container)
         for (const item in response) {
             const user_info = document.createElement('div')
             user_info.classList.add('user_info')
-            document.body.appendChild(user_info)
+            details_container.appendChild(user_info)
             if (typeof response[item] !== 'object') {
                 user_info.innerText = `${item} -- ${response[item]}`
             }else {
@@ -33,20 +35,28 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         }
     })
 
-const post_button = document.createElement('button')
-post_button.classList.add('post_button')
-post_button.innerText = `post of current user`
-document.body.appendChild(post_button)
-post_button.onclick = function (){
-    fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
-        .then(value =>  value.json())
-        .then(value => {
-            for (const valueElement of value) {
-                const post = document.createElement('div')
-                post.classList.add('post')
-                post.innerText = `${valueElement.title}`
-                document.body.appendChild(post)
+const posturl = new URL(location.href)
+const postid = posturl.searchParams.get('id') + '/posts';
+fetch('https://jsonplaceholder.typicode.com/users/' + postid)
+    .then(value => value.json())
+    .then(value => {
+        const postbtn = document.createElement('button')
+        postbtn.innerText = 'post of current user';
+        document.body.appendChild(postbtn)
+        postbtn.onclick = function (){
+            const titlediv = document.createElement('div')
+            document.body.appendChild(titlediv)
+            for (const item of value) {
+                const desc = document.createElement('div')
+                titlediv.appendChild(desc)
+                desc.innerText = `${item.id} -- ${item.title}`
+                const detailbtn = document.createElement('button')
+                detailbtn.classList.add('detailbtn')
+                detailbtn.innerText = 'Post details'
+                detailbtn.onclick = function (){
+                    window.location = 'post-details.html?post=' + JSON.stringify(item)
+                }
+                titlediv.appendChild(detailbtn)
             }
-        })
-}
-
+        }
+    })
