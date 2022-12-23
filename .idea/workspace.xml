@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/mini-project/post-details.css" afterDir="false" />
+    <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini-project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/post-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini-project/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/post-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini-project/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/user-details.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +75,7 @@
       <workItem from="1671621539469" duration="598000" />
       <workItem from="1671626702302" duration="2803000" />
       <workItem from="1671699690281" duration="3573000" />
-      <workItem from="1671785799633" duration="7888000" />
-    </task>
-    <task id="LOCAL-00011" summary="HW 4 started">
-      <created>1668074074423</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1668074074423</updated>
+      <workItem from="1671785799633" duration="9127000" />
     </task>
     <task id="LOCAL-00012" summary="some changes">
       <created>1668084680066</created>
@@ -424,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671792735472</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="done">
+      <created>1671795842421</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1671795842421</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,12 +462,12 @@
     <MESSAGE value="Start HW 6" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Start home work 8" />
-    <MESSAGE value="done" />
     <MESSAGE value="started hw 10" />
     <MESSAGE value="started hw 9" />
     <MESSAGE value="Start HW 10" />
     <MESSAGE value="Started mini-project" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
