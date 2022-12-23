@@ -28,7 +28,7 @@ body{
 }
 
 .userblock{
-    min-width: 48%;
+    min-width: 45%;
     height: 160px;
     display: flex;
     flex-direction: column;
@@ -36,16 +36,45 @@ body{
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
-    background: #36cd98;
-    border: 2px solid black;
-    opacity: 0.7;
+    background: whitesmoke;
+    opacity: 0.5;
     padding: 15px;
-    font-family: "Segoe UI Light";
-    transition: 0.3s
+    margin: 25px;
+    font-family: Arial;
+    transition: 0.3s;
+    font-size: 35px;
+    color: black;
+    box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 .userblock:hover{
     min-width: 50%;
     height: 200px;
     transition: 0.3s
+}
+
+.user_button{
+    min-width: 10%;
+    background: dodgerblue;
+    border-radius: 12px;
+    height: 50px;
+    transition: 0.3s;
+    color: white;
+    margin-top: 20px;
+    font-family: SansSerif;
+    font-size: 25px;
+    border: 0px;
+    padding: 8px;
+}
+
+.user_button:hover{
+    min-width: 18%;
+    height: 65px;
+    transition: 0.3s;
+    font-size: 35px;
+
+
 }
