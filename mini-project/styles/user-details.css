@@ -23,7 +23,7 @@ body{
     row-gap: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-image: url('../img..png');
+    background-image: url('../back.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -92,7 +92,7 @@ body{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-image: url('../img..png');
+    background-image: url('../back.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="small updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/user-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini-project/styles/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/post-details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini-project/styles/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/user-details.css" afterDir="false" />
     </list>

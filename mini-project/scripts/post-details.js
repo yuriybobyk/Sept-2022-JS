@@ -47,6 +47,7 @@ const gitlink = document.createElement('a')
 gitlink.classList.add('gitlink')
 gitlink.appendChild(git)
 gitlink.href = 'https://github.com/yuriybobyk';
+gitlink.target = '_blank'
 futter.appendChild(gitlink)
 const telegram = document.createElement('i')
 telegram.classList.add('fa-brands', 'fa-telegram')
@@ -54,6 +55,7 @@ const telegramlink = document.createElement('a')
 telegramlink.classList.add('telegramlink')
 telegramlink.appendChild(telegram)
 telegramlink.href = 'https://t.me/yura_bobyk'
+telegramlink.target = '_blank'
 futter.appendChild(telegramlink)
 const insta = document.createElement('i')
 insta.classList.add('fa-brands', 'fa-instagram')
@@ -61,6 +63,7 @@ const instalink = document.createElement('a')
 instalink.classList.add('instalink')
 instalink.appendChild(insta)
 instalink.href = 'https://www.instagram.com/yurii__bobyk_/'
+instalink.target = '_blank'
 futter.appendChild(instalink)
 const twitter = document.createElement('i')
 twitter.classList.add('fa-brands', 'fa-twitter')
@@ -68,6 +71,7 @@ const twitlink = document.createElement('a')
 twitlink.classList.add('twitlink')
 twitlink.appendChild(twitter)
 twitlink.href = 'https://twitter.com/YuriiBobyk'
+twitlink.target = '_blank'
 futter.appendChild(twitlink)
 const signy = document.createElement("h5")
 signy.classList.add('signy')
