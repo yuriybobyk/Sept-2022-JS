@@ -87,7 +87,7 @@ body{
     height: 25%;
     column-gap: 5px;
     gap: 15px;
-    width: 98%;
+    width: 100%;
     transition: 0.3s;
     padding-top: 10px;
     padding-left: 10px;
@@ -111,7 +111,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 85px;
+    height: 89px;
     width: 19%;
     padding: 10px;
     background: whitesmoke;
