@@ -12,9 +12,10 @@ body{
 }
 
 .detailcontainer{
-    height: 95vh;
+    height: 90%;
     width: 98%;
     border: 0px;
+    box-sizing: border-box;
     border-radius: 15px;
     display: flex;
     gap: 10px;
@@ -79,6 +80,7 @@ body{
 .commentdiv{
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     align-content: flex-start;
@@ -107,14 +109,84 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 130px;
-    width: 19%;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: flex-start;
+    height: 170px;
+    width: 16%;
+    padding: 10px;
     background: whitesmoke;
     opacity: 0.5;
     font-family: Arial;
     color: black;
+}
+
+.futter{
+    min-width: 98%;
+    box-sizing: border-box;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    background: #0d1117;
+    opacity: 0.7;
+    padding: 10px;
+    box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.fa-github{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+.fa-github:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+.fa-telegram{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+.fa-telegram:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+.fa-instagram{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+
+.fa-instagram:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+i{
+    width: 45px;
+    height: 45px;
+}
+
+.fa-twitter{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+
+.fa-twitter:hover{
+    color: darkgray;
+    transition: 0.2s
+}
+
+.signy{
+    font-size: 20px;
+    color: #6d7580;
+    position: relative;
+    left: 1400px;
 }

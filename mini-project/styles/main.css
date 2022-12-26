@@ -6,12 +6,15 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
+
 
 .container{
     display: flex;
     width: 98%;
-    height: 98%;
+    height: 90%;
     border-radius: 15px;
     box-shadow:
             inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -25,11 +28,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin-bottom: 12px;
 }
 
 .userblock{
     min-width: 45%;
-    height: 160px;
+    height: 105px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,10 +43,10 @@ body{
     background: whitesmoke;
     opacity: 0.5;
     padding: 15px;
-    margin: 25px;
+    margin: 15px;
     font-family: Arial;
     transition: 0.3s;
-    font-size: 35px;
+    font-size: 20px;
     color: black;
     box-shadow:
             inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -52,7 +56,7 @@ body{
 
 .userblock:hover{
     min-width: 50%;
-    height: 200px;
+    height: 125px;
     transition: 0.3s
 }
 
@@ -60,21 +64,93 @@ body{
     min-width: 10%;
     background: dodgerblue;
     border-radius: 12px;
-    height: 50px;
+    height: 40px;
     transition: 0.3s;
     color: white;
     margin-top: 20px;
     font-family: SansSerif;
-    font-size: 25px;
+    font-size: 20px;
     border: 0px;
     padding: 8px;
 }
 
 .user_button:hover{
-    min-width: 18%;
-    height: 65px;
+    min-width: 15%;
+    height: 50px;
     transition: 0.3s;
-    font-size: 35px;
+    font-size: 23px;
 
 
+}
+
+.futter{
+    min-width: 98%;
+    box-sizing: border-box;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    background: #0d1117;
+    opacity: 0.7;
+    padding: 10px;
+    box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.fa-github{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+.fa-github:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+.fa-telegram{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+.fa-telegram:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+.fa-instagram{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+
+.fa-instagram:hover{
+    color: darkgray;
+    transition: 0.2s;
+}
+
+i{
+    width: 45px;
+    height: 45px;
+}
+
+.fa-twitter{
+    font-size: 45px;
+    color: whitesmoke;
+    transition: 0.2s
+}
+
+.fa-twitter:hover{
+    color: darkgray;
+    transition: 0.2s
+}
+
+.signy{
+    font-size: 20px;
+    color: #6d7580;
+    position: relative;
+    left: 1400px;
 }

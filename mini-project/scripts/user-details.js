@@ -1,12 +1,12 @@
 const url = new URL(location.href)
 const id = url.searchParams.get('id')
+const details_container = document.createElement('div')
+details_container.classList.add('details_container')
+document.body.appendChild(details_container)
 
 fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(response => response.json())
     .then(response =>{
-        const details_container = document.createElement('div')
-        details_container.classList.add('details_container')
-        document.body.appendChild(details_container)
         for (const item in response) {
             const user_info = document.createElement('div')
             user_info.classList.add('user_info')
@@ -41,14 +41,17 @@ const postid = posturl.searchParams.get('id') + '/posts';
 fetch('https://jsonplaceholder.typicode.com/users/' + postid)
     .then(value => value.json())
     .then(value => {
+        const postbtndiv = document.createElement('div')
+        postbtndiv.classList.add('postbtndiv')
+        details_container.appendChild(postbtndiv)
         const postbtn = document.createElement('button')
         postbtn.classList.add('post-btn')
         postbtn.innerText = 'post of current user';
-        document.body.appendChild(postbtn)
+        postbtndiv.appendChild(postbtn)
         postbtn.onclick = function (){
             const titlediv = document.createElement('div')
             titlediv.classList.add('title')
-            document.body.appendChild(titlediv)
+            details_container.appendChild(titlediv)
             for (const item of value) {
                 const desc = document.createElement('div')
                 desc.classList.add('desc')
@@ -65,3 +68,40 @@ fetch('https://jsonplaceholder.typicode.com/users/' + postid)
             postbtn.disabled = 'true';
         }
     })
+
+const futter = document.createElement('div')
+futter.classList.add('futter')
+document.body.appendChild(futter)
+const git = document.createElement('i')
+git.classList.add('fa-brands', 'fa-github')
+const gitlink = document.createElement('a')
+gitlink.classList.add('gitlink')
+gitlink.appendChild(git)
+gitlink.href = 'https://github.com/yuriybobyk';
+futter.appendChild(gitlink)
+const telegram = document.createElement('i')
+telegram.classList.add('fa-brands', 'fa-telegram')
+const telegramlink = document.createElement('a')
+telegramlink.classList.add('telegramlink')
+telegramlink.appendChild(telegram)
+telegramlink.href = 'https://t.me/yura_bobyk'
+futter.appendChild(telegramlink)
+const insta = document.createElement('i')
+insta.classList.add('fa-brands', 'fa-instagram')
+const instalink = document.createElement('a')
+instalink.classList.add('instalink')
+instalink.appendChild(insta)
+instalink.href = 'https://www.instagram.com/yurii__bobyk_/'
+futter.appendChild(instalink)
+const twitter = document.createElement('i')
+twitter.classList.add('fa-brands', 'fa-twitter')
+const twitlink = document.createElement('a')
+twitlink.classList.add('twitlink')
+twitlink.appendChild(twitter)
+twitlink.href = 'https://twitter.com/YuriiBobyk'
+futter.appendChild(twitlink)
+const signy = document.createElement("h5")
+signy.classList.add('signy')
+signy.innerText = '© 2022 Yurii Bobyk'
+futter.appendChild(signy)
+

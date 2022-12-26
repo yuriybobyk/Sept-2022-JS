@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ed41a468-9195-47ed-b0f7-280528944486" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/pages/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/pages/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/pages/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/pages/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/scripts/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/scripts/user-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/styles/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/post-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/styles/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/styles/user-details.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sept-2022-JS\mini-project\scripts" />
+      <recent name="D:\Sept-2022-JS\mini-project\styles" />
+      <recent name="D:\Sept-2022-JS\mini-project\pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,13 +92,9 @@
       <workItem from="1671626702302" duration="2803000" />
       <workItem from="1671699690281" duration="3573000" />
       <workItem from="1671785799633" duration="9127000" />
-    </task>
-    <task id="LOCAL-00012" summary="some changes">
-      <created>1668084680066</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1668084680066</updated>
+      <workItem from="1671818276888" duration="1465000" />
+      <workItem from="1672000911542" duration="1837000" />
+      <workItem from="1672041558135" duration="10544000" />
     </task>
     <task id="LOCAL-00013" summary="some changes">
       <created>1668085838244</created>
@@ -420,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671795842421</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="done">
+      <created>1671818537855</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1671818537856</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
